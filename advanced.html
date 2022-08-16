@@ -7,15 +7,32 @@
     </head>
     <body>
         <div id="searchContainer">
-            <a class="searchLinks" href="index.html">Google Search</a>
+            <div class="row">
+                <a class="searchLinks" href="index.html">Google Search</a>
+            </div>         
         </div>
         <div id="formContainer">
             <form action="https://www.google.com/search" id="advancedForm">
-                <p class="searchInput">all these words: <input type="text" name="as_q"></p>
-                <p class="searchInput">this exact word or phrase: <input type="text" name="as_epq"></p>
-                <p class="searchInput">any of these words: <input type="text" name="as_oq"></p>
-                <p class="searchInput">none of these words: <input type="text" name="as_eq"></p>
-                <p id="searchSubmit"><input type="submit" value="Advanced Search"></p>
+                <div class="row">
+                    <p class="col-3">all these words: </p>
+                    <input type="text" name="as_q" class="col-4">
+                </div>
+                <div class="row">
+                    <p class="col-3">this exact word or phrase: </p>
+                    <input type="text" name="as_epq" class="col-4">
+                </div>
+                <div class="row">
+                    <p class="col-3">any of these words: </p>
+                    <input type="text" name="as_oq" class="col-4">
+                </div>
+                <div class="row">
+                    <p class="col-3">none of these words: </p>
+                    <input type="text" name="as_eq" class="col-4">
+                </div>
+                <div class="row">
+                    <p class="col-5"></p>
+                    <input type="submit" value="Advanced Search" class="col-2" id="searchSubmitAdv">
+                </div>
             </form>
                
         </div>

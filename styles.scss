@@ -1,6 +1,13 @@
 #searchContainer {
     padding: 20px;
     text-align: right;
+    font-size: 20px;
+}
+
+.searchLinks {
+    text-decoration: none;
+    color: black;
+    padding: 20px
 }
 
 #formContainer {
@@ -13,4 +20,39 @@
 
 #advancedForm {
     text-align: left;
+    font-size: 20px;
+    .row {
+        margin: 20px;
+        input[type=text] {
+            border-radius: 0px;
+            width: 500px;
+            height: 40px;
+        }
+    }
+    
+}
+
+#searchSubmitAdv {
+    background-color: rgb(47, 47, 226);
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+input[type=text] {
+    border-radius: 25px;
+    width: 700px;
+    height: 60px;
+    font-size: 30px;
+}
+
+input[type=submit] {
+    border-radius: 5px;
+}
+
+.googleImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;  
 }
