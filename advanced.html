@@ -10,8 +10,11 @@
             <a class="searchLinks" href="index.html">Google Search</a>
         </div>
         <div id="formContainer">
-            <form action="https://www.google.com/search">
-                <p id="searchInput"><input type="text" name="q"></p>
+            <form action="https://www.google.com/search" id="advancedForm">
+                <p class="searchInput">all these words: <input type="text" name="as_q"></p>
+                <p class="searchInput">this exact word or phrase: <input type="text" name="as_epq"></p>
+                <p class="searchInput">any of these words: <input type="text" name="as_oq"></p>
+                <p class="searchInput">none of these words: <input type="text" name="as_eq"></p>
                 <p id="searchSubmit"><input type="submit" value="Advanced Search"></p>
             </form>
                
